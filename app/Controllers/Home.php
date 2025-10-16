@@ -10,4 +10,11 @@ class Home extends BaseController
             'title' => 'Beranda'
         ]);
     }
+
+    public function gradientSample(): string
+    {
+        return view('pages/gradient_sample', [
+            'title' => 'Sample Gradient - Lunaray Beauty Factory'
+        ]);
+    }
 }

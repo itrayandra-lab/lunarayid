@@ -35,7 +35,7 @@
     <meta name="twitter:image" content="<?= esc($og_image ?? base_url('images/og-image-lunaray.jpg')) ?>">
 
     <meta name="theme-color" content="#ffffff">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="<?= base_url('css/output.css') ?>" rel="stylesheet">
 
     <script type="application/ld+json">
     {
