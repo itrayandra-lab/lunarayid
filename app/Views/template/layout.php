@@ -1,6 +1,6 @@
 <?= $this->include('template/header') ?>
 
-<div class="container mx-auto p-4">
+<div class="mx-auto">
     <?= $this->renderSection('content') ?>
 </div>
 

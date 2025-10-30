@@ -35,7 +35,11 @@
     <meta name="twitter:image" content="<?= esc($og_image ?? base_url('images/og-image-lunaray.jpg')) ?>">
 
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="<?= base_url('css/output.css') ?>" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     <script type="application/ld+json">
     {
@@ -74,4 +78,4 @@
     }
     </script>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="">
